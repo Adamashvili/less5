@@ -18,7 +18,8 @@ function App() {
 
   return (
     <>
-      <div className="card">
+    <div className='idk'>
+<div className="card">
         <input onKeyUp={(e) => setText(e.target.value)} type="text" />
         <button onClick={fillArray}>ADD</button>
         <ul>
@@ -29,6 +30,13 @@ function App() {
         }
         </ul>
       </div>
+      <div className="text">
+        <h1>This is our project in React</h1>
+        <p>We created a simple list with add and delete functionalities.</p>
+      </div>
+      
+    </div>
+      
     </>
   )
 }

@@ -29,3 +29,13 @@ li button {
   width: 40px;
   background-color: red;
 }
+
+.idk {
+  display: flex;
+  justify-content: center;
+  gap: 50px ;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
